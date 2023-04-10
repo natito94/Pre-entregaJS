@@ -7,8 +7,8 @@ alert("Recuerda ingresar valores del '0' al '10'")
 //Se declaran las variables y bucles
 
 let datoUno = parseInt(prompt("¿Cuantas veces ves a tu pareja por semana?")) 
-while(datoUno < 0 || datoUno > 10) {
-    alert("El valor no es valido, recuerda que debes agregar un valor del '1' al '10'");
+while(datoUno < 0 || datoUno > 7) {
+    alert("El valor no es valido, recuerda que debes agregar un valor del '1' al '7'");
     datoUno = parseInt(prompt("¿Cuantas veces ves a tu pareja por semana?"));
 }
 let datoDos = parseInt(prompt("Del '0' al '10' ¿Cuan interesada esta tu pareja en tus pasatiempos?"))
@@ -17,8 +17,8 @@ while(datoDos < 0 || datoDos > 10) {
     datoDos = parseInt(prompt("Del '0' al '10' ¿Cuan interesada esta tu pareja en tus pasatiempos?"));
 }
 let datoTres = parseInt(prompt("¿Cuantos dias a la semana tu pareja te invita a pasar tiempo juntos?"))
-while(datoTres < 0 || datoTres > 10) {
-    alert("El valor no es valido, recuerda que debes agregar un valor del '1' al '10'");
+while(datoTres < 0 || datoTres > 7) {
+    alert("El valor no es valido, recuerda que debes agregar un valor del '1' al '7'");
     datoTres = parseInt(prompt("¿Cuantos dias a la semana tu pareja te invita a pasar tiempo juntos?"));
 }
 let datoCuatro = parseInt(prompt("¿Del '0' al '10' cuan sincera piensas que es tu pareja?"))
@@ -26,7 +26,7 @@ while(datoCuatro < 0 || datoCuatro > 10) {
     alert("El valor no es valido, recuerda que debes agregar un valor del '1' al '10'");
     datoCuatro = parseInt(prompt("¿Del '0' al '10' cuan sincera piensas que es tu pareja contigo?"));
 }
-let datoCinco =parseInt(prompt("¿Del '0' al '10' cuan controladora piensas que es tu pareja?"))
+let datoCinco =parseInt(prompt("¿Del '0' al '10' cuan atenta es tu pareja contigo?"))
 while(datoCinco < 0 || datoCinco > 10) {
     alert("El valor no es valido, recuerda que debes agregar un valor del '1' al '10'");
     datoCinco = parseInt(prompt("¿Del '0' al '10' cuan controladora piensas que es tu pareja?"));

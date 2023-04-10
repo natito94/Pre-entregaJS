@@ -1,3 +1,6 @@
 body {
-    background-image: url(../img/canva-tarjeta-vertical-echar-de-menos-corazones-amor-minimalista-rojo-rosa-uumOS1oYcK0.jpg);
-}
+    background-image: url(../img/fondo-corazones.jpg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;}
